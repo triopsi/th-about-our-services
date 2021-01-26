@@ -51,6 +51,10 @@ function thaos_add_service_url_display( $post ){
 	$serviceurlpostid = (int)get_post_meta( $post->ID, '_thaos_service_url_post_id', true);
 	$serviceurllink = get_post_meta( $post->ID, '_thaos_service_url_link', true);
 
+	$serviceurlpageid = (empty($serviceurlpageid))?0:$serviceurlpageid;
+	$serviceurlpostid = (empty($serviceurlpostid))?0:$serviceurlpostid;
+	$serviceurllink = (empty($serviceurllink))?'':$serviceurllink;
+
 	//Hidden field.
     wp_nonce_field( 'thaos_meta_box_nonce', 'thaos_meta_box_nonce' ); 
 	
@@ -65,7 +69,7 @@ function thaos_add_service_url_display( $post ){
 		</div>
 		<?php
 		wp_dropdown_pages(array(
-			'selected' => $serviceurlid,
+			'selected' => $serviceurlpageid,
 			'name'   => 'thaos_info_url_page_id',
 			'show_option_none'  => __('Please Choose','thaos'),
 			'option_none_value' => 0,
@@ -103,7 +107,7 @@ function thaos_add_service_url_display( $post ){
 		<small> - <?= __('or','thaos') ?> - </small>
 		<br>
 		<div class="thaos_field_title">
-			<?php echo __('URL','thaos'); ?>
+			URL
 		</div>
 			<input class="thaos-field regular-text" id="infoLinkInputLink" name="thaos_info_url" type="text" value="<?php echo esc_url( $serviceurllink ) ?>" placeholder="<?php echo __('e.g. https://example.com','thaos'); ?>">
         </br>
@@ -131,14 +135,14 @@ function thaos_add_servoice_icon_display( $post ){
 		</div>
 		<input class="thaos-field regular-text" id="thaos-icon" name="thaos_info_icon" type="text" value="<?= esc_attr( $serviceicon ); ?>" placeholder="fa-sync">
         </br>
-		<em><?php
-			printf(
-				__('By default the plugin used and needed the font awesome icon libary (%s). Choose one and copy the name in this field. Important! Without first css part (fas).','thaos'),
-				'<a target="_blank" href="https://fontawesome.com/">more infos</a>'
+		<em>
+		<?php 
+		/* translators: %s is replaced with the link */
+		printf(__('By default the plugin used and needed the font awesome icon libary (%s). Choose one and copy the name in this field. Important! Without first css part (.fas).','thaos'),
+			'<a target="_blank" href="https://fontawesome.com/">more infos</a>'
 			);
 		?></em>
 		<br>
-
 		<div class="thiconReview">
 		</div>
     </div>

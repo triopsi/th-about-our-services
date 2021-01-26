@@ -25,7 +25,7 @@
  * @return void
  */
 function thaos_check_version() {
-  if (thaos_VERSION !== get_option('thaos_plugin_version'))
+  if (THAOS_VERSION !== get_option('thaos_plugin_version'))
   thaos_activation();
 }
 
@@ -82,5 +82,5 @@ function add_admin_thaos_style_js() {
  * @return void
  */
 function thaos_activation(){
-  update_option('thaos_plugin_version', thaos_VERSION);
+  update_option('thaos_plugin_version', THAOS_VERSION);
 }

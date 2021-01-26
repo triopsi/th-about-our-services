@@ -51,7 +51,7 @@ function thaos_settings_init()
      //Border Hover Color Field
      add_settings_field(
         'thaos_settings_hover_color',
-        __('Choose a color for border bottom:','thaos'),
+        __('Choose a color for bottom border:','thaos'),
         'thaos_settings_field_hover_color_cb',
         'thaos',
         'thaos_settings_section_font_color'
@@ -60,7 +60,7 @@ function thaos_settings_init()
     // Font Awesome CDN
     add_settings_section(
         'thaos_settings_section_font_cdn',
-        __('Font Awesome CDN','thaos'),
+        'Font Awesome CDN',
         'thaos_settings_cdn_section_cb',
         'thaos'
     );
@@ -102,8 +102,8 @@ function thaos_settings_cdn_section_cb()
  */
 function thaos_settings_section_cb()
 {
-    printf(
-        __('Team Settings Section. Here you can edit the Social Media Icons styles for the front/content. By default the plugin used and needed the font awesome icon libary(%s).','thaos'),
+    /* translators: %s is replaced with the link */
+    printf(__('Service Settings Section. Here you can edit the Social Media Icons styles for the front/content. By default the plugin used and needed the font awesome icon libary(%s).','thaos'),
         '<a target="_blank" href="https://fontawesome.com/">more infos</a>'
     );
 }

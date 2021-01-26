@@ -26,8 +26,8 @@
 **/
 
 //Definie plugin version
-if (!defined('thaos_VERSION'))
-    define('thaos_VERSION', '0.1.0');
+if (!defined('THAOS_VERSION'))
+    define('THAOS_VERSION', '0.1.0');
 
 
 /* General */

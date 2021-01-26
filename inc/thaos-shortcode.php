@@ -81,6 +81,9 @@ function thaos_sh($atts) {
   //Buffer Start
   ob_start();
 
+  //div
+  $divcollum=($post_count<=5)?$post_count:5;
+
   //Show Services CSS
   if( $thaos_query->have_posts() ) { 
     ?>
@@ -92,7 +95,7 @@ function thaos_sh($atts) {
                 border-bottom-color: <?= $border_color ?>;
             }
           ul.thaos li {
-              width: <?= round(($width_item/$post_count),2)?>%;
+              width: <?= round(($width_item/$divcollum),2)?>%;
           }          
           /* Unter Tabletsgröße */
           @media (max-width: 991.98px) {
@@ -106,11 +109,21 @@ function thaos_sh($atts) {
     //Output Buffer and Clen Buffer
     $o = ob_get_clean();
 
-    //Output
-    $htmlout .='<ul class="row thaos">';
+    //itteration
+    $i=0;
 
     //Outputt all Services
     while ($thaos_query->have_posts()) : $thaos_query->the_post();
+
+      //itteration high
+      $i++;
+
+      $htmlout .='<!--'.($i % 5).'-->';
+
+      if ($i % 5 == 1){
+        //Output
+        $htmlout .='<ul class="row thaos">';
+      }
 
       //Default Link=true
       $nolink=true;
@@ -170,10 +183,19 @@ function thaos_sh($atts) {
         $htmlout .='</a>';
       }
       $htmlout .='</li>';
+
+      if ($i % 5 == 0){
+        $htmlout .='</ul><!-- END UL-->';
+      }
+
     endwhile;
-    $htmlout .='</ul>';
+
+    if ($i % 5 !=0){
+      $htmlout .='</ul><!-- END UL-->';
+    }
+
   }
-  $htmlout = '<!-- End Triopsi Hosting Service List -->';
+  $htmlout .= '<!-- End Triopsi Hosting Service List -->';
   wp_reset_postdata(); // Reset WP Query
   return $o.$htmlout;
 
