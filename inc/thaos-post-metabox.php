@@ -111,7 +111,7 @@ function thaos_add_service_url_display( $post ){
 		</div>
 			<input class="thaos-field regular-text" id="infoLinkInputLink" name="thaos_info_url" type="text" value="<?php echo esc_url( $serviceurllink ) ?>" placeholder="<?php echo __('e.g. https://example.com','thaos'); ?>">
         </br>
-        <em><?= __('Display on the front.','thaos') ?></em>
+        <em><?= __('Empty Value = No Link','thaos') ?></em>
     </div>
 
 <?php
@@ -126,12 +126,11 @@ function thaos_add_servoice_icon_display( $post ){
 	
 	//get post meta data
 	$serviceicon = get_post_meta( $post->ID, '_thaos_service_icon',true);
-
+	$serviceicon = (empty($serviceicon))?'':$serviceicon;
     ?>
-    
 	<div class="thaos_field">
 		<div class="thaos_field_title">
-			<?php echo __('Icon name','thaos'); ?>
+			<?php echo __('Icon name','thaos'); ?><span style="color:red;">*</span>
 		</div>
 		<input class="thaos-field regular-text" id="thaos-icon" name="thaos_info_icon" type="text" value="<?= esc_attr( $serviceicon ); ?>" placeholder="fa-sync">
         </br>
@@ -145,6 +144,7 @@ function thaos_add_servoice_icon_display( $post ){
 		<br>
 		<div class="thiconReview">
 		</div>
+		<em><span style="color:red;">*</span> <?= __('Required fields','thaos'); ?></em>
     </div>
 
 <?php

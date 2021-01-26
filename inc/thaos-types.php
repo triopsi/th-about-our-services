@@ -31,10 +31,10 @@ function register_thaos_type() {
 	
   	/* Defines labels */
   	$labels = array(
-		'name'               => __( 'Services', 'thaos' ),
+		'name'               => __( 'TH Services', 'thaos' ),
 		'singular_name'      => __( 'Service', 'thaos' ),
-		'menu_name'          => __( 'Services', 'thaos' ),
-		'name_admin_bar'     => __( 'Services', 'thaos' ),
+		'menu_name'          => __( 'TH Services', 'thaos' ),
+		'name_admin_bar'     => __( 'TH Services', 'thaos' ),
 		'add_new'            => __( 'Add New Service', 'thaos' ),
 		'add_new_item'       => __( 'Add New Service', 'thaos' ),
 		'new_item'           => __( 'New Service', 'thaos' ),

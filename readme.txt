@@ -13,8 +13,8 @@ A simple about our services plugin. Create items and copy-paste the shortcode ev
  
 == Description ==
 
-The "about our service" Plugin is a very simple way, to show your services on your site or blog post. It's have a responsive Design
-and is very easys to use it. Chhose icons and create descriptions in the admin panel of wordpress. Add than the shortcode in a post or site.
+The "about our service" plugin is a very simple way, to show your services on your site or blog post. It's have a responsive Design
+and is very easys to use it. Choose icons and create descriptions on the admin panel of wordpress. Add than copy the shortcode in a post or site.
 
 = Create features =
  

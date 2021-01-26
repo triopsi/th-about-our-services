@@ -70,8 +70,8 @@ msgid "e.g. https://example.com"
 msgstr "z.B. https://example.com"
 
 #: inc/thaos-post-metabox.php:110
-msgid "Display on the front."
-msgstr "Auf der Seite sichtbar."
+msgid "Empty Value = No Link"
+msgstr "Leerer Inhalt = Kein Link"
 
 #: inc/thaos-post-metabox.php:130
 msgid "Icon name"
@@ -157,8 +157,8 @@ msgstr ""
 "worden ist."
 
 #: inc/thaos-types.php:34 inc/thaos-types.php:36 inc/thaos-types.php:37
-msgid "Services"
-msgstr "Services"
+msgid "TH Services"
+msgstr "TH Services"
 
 #: inc/thaos-types.php:35
 msgid "Service"
@@ -215,3 +215,7 @@ msgstr "Service Blaupause gespeichert."
 #: inc/thaos-types.php:127
 msgid "Service name"
 msgstr "Servicenamen"
+
+#: inc/thaos-post-metabox.php:147
+msgid "Required fields"
+msgstr "Pflichtfeld"

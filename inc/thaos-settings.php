@@ -211,7 +211,7 @@ function thaos_options_page_html() {
                 <pre>thaos_plugin_version: <?php print_r(get_option( 'thaos_plugin_version' )) ?></pre>
                 <pre>thaos_settings_cdn_awesome: <?php print_r(get_option( 'thaos_settings_cdn_awesome' )) ?></pre>
                 <pre>thaos_setting_main_color: <?php print_r(get_option( 'thaos_setting_main_color' )) ?></pre>
-                <pre>thaos_setting_main_color_hover: <?php print_r(get_option( 'thaos_setting_main_color_hover' )) ?></pre>
+                <pre>thaos_setting_border_color_hover: <?php print_r(get_option( 'thaos_setting_border_color_hover' )) ?></pre>
             </div><!-- /.debug-info -->
         <?php } ?>
     </div>
