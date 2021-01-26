@@ -27,7 +27,7 @@ msgid ""
 "everywhere in your post or site."
 msgstr ""
 "Ein einfaches \"Über unser Service\" Plugin. Erstelle Items und kopiere den "
-"Shortcode überall in dein Post oder Seite."
+"Shortcode überall in deinen Posts oder Seiten."
 
 #. Author of the plugin
 msgid "triopsi"
