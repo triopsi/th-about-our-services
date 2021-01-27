@@ -207,7 +207,7 @@ function thaos_options_page_html() {
         <?php if(WP_DEBUG){ ?>
             <div class="debug-info">
                 <h3><?php _e('Debug information','thaos'); ?></h3>
-                <p><?php _e('You are seeing this becthaose your WP_DEBUG variable is set to true.','thaos'); ?></p>
+                <p><?php _e('You are seeing this because your WP_DEBUG variable is set to true.','thaos'); ?></p>
                 <pre>thaos_plugin_version: <?php print_r(get_option( 'thaos_plugin_version' )) ?></pre>
                 <pre>thaos_settings_cdn_awesome: <?php print_r(get_option( 'thaos_settings_cdn_awesome' )) ?></pre>
                 <pre>thaos_setting_main_color: <?php print_r(get_option( 'thaos_setting_main_color' )) ?></pre>

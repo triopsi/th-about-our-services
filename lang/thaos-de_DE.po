@@ -151,7 +151,7 @@ msgid "Debug information"
 msgstr "Debug Informationen"
 
 #: inc/thaos-settings.php:210
-msgid "You are seeing this becthaose your WP_DEBUG variable is set to true."
+msgid "You are seeing this because your WP_DEBUG variable is set to true."
 msgstr ""
 "Du siehst diese Einstellungen, weil die WP_DEBU Variable auf true gesetzt "
 "worden ist."
