@@ -40,6 +40,12 @@ Developed by [Triopsi](https://wiki.profoxi.de)
 Nothing yet.
  
 == Screenshots ==
+
+1. "About our Service" on site default layout
+2. "About our Service" on site default layout - Move Over
+3. Admin Page - Overview
+4. Admin Page - Add new Service
+5. Admin Page - Settings
  
 == Changelog ==
  
