@@ -65,3 +65,14 @@ ul.thaos li a:hover{
     -webkit-transition: opacity 0.5s;
     transition: opacity 0.5s;
 }
+
+@media (max-width: 991.98px) {
+
+    .thboxservice {
+        margin-bottom: 0px;
+    }
+    .thaos .thserviceitem{
+        padding: 20px 30px;
+    }
+    
+}
