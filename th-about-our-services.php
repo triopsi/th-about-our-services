@@ -27,7 +27,7 @@
 
 //Definie plugin version
 if (!defined('THAOS_VERSION'))
-    define('THAOS_VERSION', '1.0.1');
+    define('THAOS_VERSION', '1.0.2');
 
 
 /* General */
@@ -51,5 +51,5 @@ require_once('inc/thaos-shortcode.php');
  * @return void
  */
 function thaos_load_plugin_textdomain() {
-  load_plugin_textdomain( 'thaos', FALSE, 'th-about-our-services/lang/' );
+  load_plugin_textdomain( 'thaos', '', 'th-about-our-services/lang/' );
 }
