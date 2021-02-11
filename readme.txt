@@ -5,7 +5,7 @@ Tags: about, aboutusservice, service, offer, site, post, shortcode, site, post
 Requires at least: 5.3
 Tested up to: 5.6.0
 Requires PHP: 5.6
-Stable tag: 1.0.2
+Stable tag: 1.0.3
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0
  
@@ -48,6 +48,10 @@ Nothing yet.
 5. Admin Page - Settings
  
 == Changelog ==
+
+= 1.0.3 =
+* php echo fix
+* css color fix
 
 = 1.0.2 =
 * functions deprecated fix

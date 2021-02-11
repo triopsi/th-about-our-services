@@ -32,6 +32,11 @@ ul.thaos li {
     transition: all ease 5;
 }
 
+.thboxservice p,
+.thserviceitem p{
+    color: #313131;
+}
+
 .thaos .thaos-txt {
     color: #237dd1;
 }

@@ -79,7 +79,7 @@ function thaos_add_service_url_display( $post ){
 			));
 		?>
 		<br>
-		<small> - <?= __('or','thaos') ?> - </small>
+		<small> - <?php echo __('or','thaos') ?> - </small>
 		<br>
 		<div class="thaos_field_title">
 			<?php echo __('Post','thaos'); ?>
@@ -94,24 +94,24 @@ function thaos_add_service_url_display( $post ){
 			foreach( $posts as $post ) : setup_postdata($post); 
 				if($serviceurlpostid == $post->ID){
 				?>
-					<option value="<?= $post->ID; ?>" selected><?php the_title(); ?></option>
+					<option value="<?php echo $post->ID; ?>" selected><?php the_title(); ?></option>
 				<?php
 				}else{ ?>
-				<option value="<?= $post->ID; ?>"><?php the_title(); ?></option>
+				<option value="<?php echo $post->ID; ?>"><?php the_title(); ?></option>
 			<?php 
 				}
 			endforeach; 
 			?>
 		</select>
 		<br>
-		<small> - <?= __('or','thaos') ?> - </small>
+		<small> - <?php echo __('or','thaos') ?> - </small>
 		<br>
 		<div class="thaos_field_title">
 			URL
 		</div>
 			<input class="thaos-field regular-text" id="infoLinkInputLink" name="thaos_info_url" type="text" value="<?php echo esc_url( $serviceurllink ) ?>" placeholder="<?php echo __('e.g. https://example.com','thaos'); ?>">
         </br>
-        <em><?= __('Empty Value = No Link','thaos') ?></em>
+        <em><?php echo __('Empty Value = No Link','thaos') ?></em>
     </div>
 
 <?php
@@ -132,7 +132,7 @@ function thaos_add_servoice_icon_display( $post ){
 		<div class="thaos_field_title">
 			<?php echo __('Icon name','thaos'); ?><span style="color:red;">*</span>
 		</div>
-		<input class="thaos-field regular-text" id="thaos-icon" name="thaos_info_icon" type="text" value="<?= esc_attr( $serviceicon ); ?>" placeholder="fa-sync">
+		<input class="thaos-field regular-text" id="thaos-icon" name="thaos_info_icon" type="text" value="<?php echo esc_attr( $serviceicon ); ?>" placeholder="fa-sync">
         </br>
 		<em>
 		<?php 
@@ -144,7 +144,7 @@ function thaos_add_servoice_icon_display( $post ){
 		<br>
 		<div class="thiconReview">
 		</div>
-		<em><span style="color:red;">*</span> <?= __('Required fields','thaos'); ?></em>
+		<em><span style="color:red;">*</span> <?php echo __('Required fields','thaos'); ?></em>
     </div>
 
 <?php

@@ -89,13 +89,13 @@ function thaos_sh($atts) {
     ?>
       <style>
           .thaos .thaos-txt {
-              color: <?= $main_color ?>;
+              color: <?php echo $main_color ?>;
           }
           .thaos .border-bottom-hover:hover {
-                border-bottom-color: <?= $border_color ?>;
+                border-bottom-color: <?php echo $border_color ?>;
             }
           ul.thaos li {
-              width: <?= round(($width_item/$divcollum),2)?>%;
+              width: <?php echo round(($width_item/$divcollum),2)?>%;
           }          
           /* Unter Tabletsgröße */
           @media (max-width: 991.98px) {
