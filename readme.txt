@@ -3,9 +3,9 @@ Contributors: triopsi
 Donate link: https://www.paypal.me/triopsi
 Tags: about, aboutusservice, service, offer, site, post, shortcode, site, post
 Requires at least: 5.3
-Tested up to: 5.6.0
+Tested up to: 5.7
 Requires PHP: 5.6
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0
  
@@ -48,6 +48,9 @@ Nothing yet.
 5. Admin Page - Settings
  
 == Changelog ==
+
+= 1.0.4 =
+* Tested up for wp 5.7
 
 = 1.0.3 =
 * php echo fix
