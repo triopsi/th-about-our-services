@@ -41,7 +41,7 @@
 
 .thaos .thaos-txt {
     color: #237dd1;
-    word-break: break-all;
+    word-break: normal;
 }
 
 .thaos .border-bottom-hover:hover {
@@ -59,7 +59,7 @@
 }
 
 .thserviceitem p{
-    word-break: break-all;
+    word-break: normal;
 }
 
 .thaos-item a,

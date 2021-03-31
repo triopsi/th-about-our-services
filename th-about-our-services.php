@@ -3,7 +3,7 @@
  * Plugin Name: About our services
  * Plugin URI: https://www.wiki.profoxi.de
  * Description: A simple about our services plugin. Create items and copy-paste the shortcode everywhere in your post or site.
- * Version: 1.1.0
+ * Version: 1.1.1
  * Author: triopsi
  * Author URI: http://wiki.profoxi.de
  * Text Domain: thaos
@@ -30,7 +30,7 @@
 
 // Definie plugin version.
 if ( ! defined( 'THAOS_VERSION' ) ) {
-	define( 'THAOS_VERSION', '1.1.0' );
+	define( 'THAOS_VERSION', '1.1.1' );
 }
 
 // Loads plugin's text domain.
