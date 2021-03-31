@@ -22,12 +22,8 @@ msgid "https://www.wiki.profoxi.de"
 msgstr "https://www.wiki.profoxi.de"
 
 #. Description of the plugin
-msgid ""
-"A simple about our services plugin. Create items and copy-paste the shortcode "
-"everywhere in your post or site."
-msgstr ""
-"Ein einfaches \"Über unser Service\" Plugin. Erstelle Items und kopiere den "
-"Shortcode überall in deinen Posts oder Seiten."
+msgid "A simple about our services plugin. Create items and copy-paste the shortcode everywhere in your post or site."
+msgstr "Ein einfaches \"Über unser Service\" Plugin. Erstelle Items und kopiere den Shortcode überall in deinen Posts oder Seiten."
 
 #. Author of the plugin
 msgid "triopsi"
@@ -80,13 +76,11 @@ msgstr "Iconnamen"
 #. translators: %s is replaced with the link
 #: inc/thaos-post-metabox.php:137
 msgid ""
-"By default the plugin used and needed the font awesome icon libary (%s). "
-"Choose one and copy the name in this field. Important! Without first css part "
-"(.fas)."
+"By default the plugin used and needed the font awesome icon libary (%s). Choose one and copy the name in this field. Important! Without "
+"first css part (.fas)."
 msgstr ""
-"Standardmäßig benutzt und braucht das Plugin, das Font Awesome Icon Bibliothek "
-"(%s). Suche dir ein Icon aus und kopieren den Namen in dieses Feld. Achtung! "
-"Ohne den ersten css Teil (.fas)."
+"Standardmäßig benutzt und braucht das Plugin, das Font Awesome Icon Bibliothek (%s). Suche dir ein Icon aus und kopieren den Namen in "
+"dieses Feld. Achtung! Ohne den ersten css Teil (.fas)."
 
 #: inc/thaos-settings.php:37
 msgid "Color shema"
@@ -115,12 +109,9 @@ msgstr "CDN für die Font Awesome Icon Bibliothek benutzen?"
 #. translators: %s is replaced with the link
 #: inc/thaos-settings.php:106
 msgid ""
-"Service Settings Section. Here you can edit the Social Media Icons styles for "
-"the front/content. By default the plugin used and needed the font awesome icon "
-"libary(%s)."
-msgstr ""
-"Service Einstellungen. Standardmäßig benutzt und braucht das Plugin, das Font "
-"Awesome Icon Bibliothek (%s)."
+"Service Settings Section. Here you can edit the Social Media Icons styles for the front/content. By default the plugin used and needed "
+"the font awesome icon libary(%s)."
+msgstr "Service Einstellungen. Standardmäßig benutzt und braucht das Plugin, das Font Awesome Icon Bibliothek (%s)."
 
 #: inc/thaos-settings.php:151
 msgid "yes"
@@ -152,9 +143,7 @@ msgstr "Debug Informationen"
 
 #: inc/thaos-settings.php:210
 msgid "You are seeing this because your WP_DEBUG variable is set to true."
-msgstr ""
-"Du siehst diese Einstellungen, weil die WP_DEBU Variable auf true gesetzt "
-"worden ist."
+msgstr "Du siehst diese Einstellungen, weil die WP_DEBU Variable auf true gesetzt worden ist."
 
 #: inc/thaos-types.php:34 inc/thaos-types.php:36 inc/thaos-types.php:37
 msgid "TH Services"
@@ -219,3 +208,60 @@ msgstr "Servicenamen"
 #: inc/thaos-post-metabox.php:147
 msgid "Required fields"
 msgstr "Pflichtfeld"
+
+msgid "How It Works - Display and shortcode"
+msgstr "Wie funktioniert es - Shortcodes und Anzeigen"
+
+msgid "Geeting Started with TH Services"
+msgstr "Starten mit TH Services"
+
+msgid "All Shortcodes"
+msgstr "Alle Shortcodes"
+
+msgid "All Shortcodes parameters"
+msgstr "Alle Shortcodes Parameter"
+
+msgid "Need Support"
+msgstr "Support benötigt"
+
+msgid "Step 1. Go to \"All Services --> Add New Service\""
+msgstr "Schritt 1. Gehe auf \"Alle Service --> Service hinzufügen\""
+
+msgid "Step 2. Add Service title, a descriptions, choose a icon and insert optimal a page link."
+msgstr "Schritt 2. Füge ein Service Titel, eine Beschreibung, ein Icon und optional ein Seitenlink ein."
+
+msgid "Step 3a. Copy-paste the shortcode [thaos] anywhere in your post or site for show a row of services."
+msgstr "Schritt 3a. Kopieren Sie den Shortcode [thaos] und fügen Sie ihn in einem Beitrag oder Seite für eine Reihe von Services ein."
+
+msgid ""
+"Step 3b. Copy-paste the shortcode [thaos servicename=\"&lt;slug-name&gt;\"] anywhere in your post or site for show a single service."
+msgstr ""
+"Schritt 3b. Kopieren Sie den Shortcode [thaos servicename=\"&lt;slug-name&gt;\"] und fügen Sie ihn in einem Beitrag oder Seite für eine "
+"Einzelsicht ein."
+
+msgid "Services Shortcode. Show all services in a row."
+msgstr "Service Shortcode. Zeige alle Service in einer Reihe."
+
+msgid "Show a single service."
+msgstr "Zeige ein einzelner Service."
+
+msgid "Service link target. Value=self or blank, Default=self"
+msgstr "Service Link Ziel. Wert=self oder blank, Standard=self"
+
+msgid "Orderby the atribute of services Value=date, ID, title, name or rand, Default=date"
+msgstr "Sortierung von Service anhand deren Attribute. Wert=date, ID, title, Name oder rand, Standard=date"
+
+msgid "Sort the services in ascending or descending order. Value=asc or desc, Default=ASC"
+msgstr "Sortiere die Service in Aufsteigender oder Absteigender Reihenfolge. Wert=asc oder desc, Standard=ASC"
+
+msgid "Show a service - single view"
+msgstr "Zeige ein Service - Einzelansicht"
+
+msgid "e.g."
+msgstr "z.B."
+
+msgid "Check plugin document for shortcode parameters."
+msgstr "Checke die Plugin Dokumentation für Shortcode Parametern."
+
+msgid "Documentation"
+msgstr "Dokumentation"
