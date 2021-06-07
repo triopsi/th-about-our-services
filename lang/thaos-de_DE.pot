@@ -1,0 +1,295 @@
+# Copyright (C) 2021 triopsi
+# This file is distributed under the same license as the About our services plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: About our services 1.2.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/th-about-our-services\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-06-07T10:38:28+02:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+"X-Domain: thaos\n"
+
+#. Plugin Name of the plugin
+msgid "About our services"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://www.wiki.profoxi.de"
+msgstr ""
+
+#. Description of the plugin
+msgid "A simple about our services plugin. Create items and copy-paste the shortcode everywhere in your post or site."
+msgstr ""
+
+#. Author of the plugin
+msgid "triopsi"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://wiki.profoxi.de"
+msgstr ""
+
+#: inc/thaos-help.php:41
+msgid "How It Works"
+msgstr ""
+
+#: inc/thaos-help.php:42
+#: inc/thaos-settings.php:204
+msgid "Help"
+msgstr ""
+
+#: inc/thaos-help.php:68
+msgid "How It Works - Display and shortcode"
+msgstr ""
+
+#: inc/thaos-help.php:75
+msgid "Geeting Started with TH Services"
+msgstr ""
+
+#: inc/thaos-help.php:79
+msgid "Step 1. Go to \"All Services --> Add New Service\""
+msgstr ""
+
+#: inc/thaos-help.php:80
+msgid "Step 2. Add Service title, a descriptions, choose a icon and insert optimal a page link."
+msgstr ""
+
+#: inc/thaos-help.php:81
+msgid "Step 3a. Copy-paste the shortcode [thaos] anywhere in your post or site for show a row of services."
+msgstr ""
+
+#: inc/thaos-help.php:82
+#: inc/thaos-post-metabox.php:82
+#: inc/thaos-post-metabox.php:107
+msgid "or"
+msgstr ""
+
+#: inc/thaos-help.php:83
+msgid "Step 3b. Copy-paste the shortcode [thaos servicename=\"&lt;slug-name&gt;\"] anywhere in your post or site for show a single service."
+msgstr ""
+
+#: inc/thaos-help.php:90
+msgid "All Shortcodes"
+msgstr ""
+
+#: inc/thaos-help.php:93
+msgid "Services Shortcode. Show all services in a row."
+msgstr ""
+
+#: inc/thaos-help.php:94
+msgid "Show a single service."
+msgstr ""
+
+#: inc/thaos-help.php:99
+msgid "All Shortcodes parameters"
+msgstr ""
+
+#: inc/thaos-help.php:102
+msgid "Service link target. Value=self or blank, Default=self"
+msgstr ""
+
+#: inc/thaos-help.php:103
+msgid "Orderby the atribute of services Value=date, ID, title, name or rand, Default=date"
+msgstr ""
+
+#: inc/thaos-help.php:104
+msgid "Sort the services in ascending or descending order. Value=asc or desc, Default=ASC"
+msgstr ""
+
+#: inc/thaos-help.php:105
+msgid "Show a service - single view"
+msgstr ""
+
+#: inc/thaos-help.php:106
+msgid "Add css classnames to the item."
+msgstr ""
+
+#: inc/thaos-help.php:108
+msgid "e.g."
+msgstr ""
+
+#: inc/thaos-help.php:114
+msgid "Need Support?"
+msgstr ""
+
+#: inc/thaos-help.php:117
+msgid "Check plugin document for shortcode parameters."
+msgstr ""
+
+#: inc/thaos-help.php:118
+msgid "Documentation"
+msgstr ""
+
+#: inc/thaos-help.php:119
+#: inc/thaos-settings.php:203
+msgid "Donate"
+msgstr ""
+
+#: inc/thaos-post-metabox.php:28
+msgid "Service details"
+msgstr ""
+
+#: inc/thaos-post-metabox.php:35
+msgid "Service icon"
+msgstr ""
+
+#: inc/thaos-post-metabox.php:65
+msgid "More information URL"
+msgstr ""
+
+#: inc/thaos-post-metabox.php:68
+msgid "Site"
+msgstr ""
+
+#: inc/thaos-post-metabox.php:74
+#: inc/thaos-post-metabox.php:88
+msgid "Please Choose"
+msgstr ""
+
+#: inc/thaos-post-metabox.php:85
+msgid "Post"
+msgstr ""
+
+#: inc/thaos-post-metabox.php:112
+msgid "e.g. https://example.com"
+msgstr ""
+
+#: inc/thaos-post-metabox.php:114
+msgid "Empty Value = No Link"
+msgstr ""
+
+#: inc/thaos-post-metabox.php:133
+msgid "Icon name"
+msgstr ""
+
+#. translators: %s is replaced with the link
+#: inc/thaos-post-metabox.php:140
+msgid "By default the plugin used and needed the font awesome icon libary (%s). Choose one and copy the name in this field. Important! Without first css part (.fas)."
+msgstr ""
+
+#: inc/thaos-post-metabox.php:147
+msgid "Required fields"
+msgstr ""
+
+#: inc/thaos-settings.php:37
+msgid "Color shema"
+msgstr ""
+
+#: inc/thaos-settings.php:45
+msgid "Choose a main color:"
+msgstr ""
+
+#: inc/thaos-settings.php:54
+msgid "Choose a color for bottom border:"
+msgstr ""
+
+#: inc/thaos-settings.php:71
+msgid "Use Font Awesome CDN?"
+msgstr ""
+
+#: inc/thaos-settings.php:88
+msgid "This color will use for the service section"
+msgstr ""
+
+#: inc/thaos-settings.php:97
+msgid "Want to use the CDN for Font Awesome Icons?"
+msgstr ""
+
+#. translators: %s is replaced with the link
+#: inc/thaos-settings.php:106
+msgid "Service Settings Section. Here you can edit the Social Media Icons styles for the front/content. By default the plugin used and needed the font awesome icon libary(%s)."
+msgstr ""
+
+#: inc/thaos-settings.php:151
+msgid "yes"
+msgstr ""
+
+#: inc/thaos-settings.php:153
+msgid "no"
+msgstr ""
+
+#: inc/thaos-settings.php:165
+#: inc/thaos-settings.php:166
+msgid "TH Service options"
+msgstr ""
+
+#: inc/thaos-settings.php:200
+msgid "Save Settings"
+msgstr ""
+
+#: inc/thaos-settings.php:209
+msgid "Debug information"
+msgstr ""
+
+#: inc/thaos-settings.php:210
+msgid "You are seeing this because your WP_DEBUG variable is set to true."
+msgstr ""
+
+#: inc/thaos-types.php:34
+#: inc/thaos-types.php:36
+#: inc/thaos-types.php:37
+msgid "TH Services"
+msgstr ""
+
+#: inc/thaos-types.php:35
+msgid "Service"
+msgstr ""
+
+#: inc/thaos-types.php:38
+#: inc/thaos-types.php:39
+msgid "Add New Service"
+msgstr ""
+
+#: inc/thaos-types.php:40
+msgid "New Service"
+msgstr ""
+
+#: inc/thaos-types.php:41
+msgid "Edit Service"
+msgstr ""
+
+#: inc/thaos-types.php:42
+msgid "View Service"
+msgstr ""
+
+#: inc/thaos-types.php:43
+msgid "All Services"
+msgstr ""
+
+#: inc/thaos-types.php:44
+msgid "Search Service"
+msgstr ""
+
+#: inc/thaos-types.php:45
+msgid "No Services found."
+msgstr ""
+
+#: inc/thaos-types.php:46
+msgid "No Services found in Trash."
+msgstr ""
+
+#: inc/thaos-types.php:85
+#: inc/thaos-types.php:86
+msgid "Service updated."
+msgstr ""
+
+#: inc/thaos-types.php:87
+msgid "Service published."
+msgstr ""
+
+#: inc/thaos-types.php:88
+msgid "Services saved."
+msgstr ""
+
+#: inc/thaos-types.php:89
+msgid "Services draft updated."
+msgstr ""
+
+#: inc/thaos-types.php:127
+msgid "Service name"
+msgstr ""
