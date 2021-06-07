@@ -103,6 +103,7 @@ function thaos_help_page() { ?>
 													<span class="thaos-shortcode-preview">orderby="date"</span> – <?php esc_html_e( 'Orderby the atribute of services Value=date, ID, title, name or rand, Default=date', 'thaos' ); ?> <br />
 													<span class="thaos-shortcode-preview">order="asc"</span> – <?php esc_html_e( 'Sort the services in ascending or descending order. Value=asc or desc, Default=ASC', 'thaos' ); ?> <br />
 													<span class="thaos-shortcode-preview">servicename="&lt;slug-name&gt;"</span> – <?php esc_html_e( 'Show a service - single view', 'thaos' ); ?> <br />
+													<span class="thaos-shortcode-preview">class_boxes="&lt;classnames&gt;"</span> – <?php esc_html_e( 'Add css classnames to the item.', 'thaos' ); ?> <br />
 													<br />
 													<?php esc_html_e( 'e.g.', 'thaos' ); ?>
 													<span class="thaos-shortcode-preview">[thaos link_target="blank" order="desc"]</span>

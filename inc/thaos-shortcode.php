@@ -37,6 +37,7 @@ function thaos_sh( $atts ) {
 	global $post;
 
 	// Shortcode Parameter.
+	// phpcs:ignore
 	extract(
 		shortcode_atts(
 			array(
@@ -45,6 +46,7 @@ function thaos_sh( $atts ) {
 				'orderby'     => 'date',
 				'order'       => 'ASC',
 				'servicename' => '',
+				'class_boxes' => '',
 			),
 			$atts
 		)
@@ -55,6 +57,7 @@ function thaos_sh( $atts ) {
 	$order       = ( 'asc' === strtolower( $order ) ) ? 'ASC' : 'DESC';
 	$orderby     = ! empty( $orderby ) ? $orderby : 'date';
 	$servicename = ! empty( $servicename ) ? $servicename : '';
+	$class_boxes = ! empty( $class_boxes ) ? $class_boxes : '';
 
 	// WP Query Parameters.
 	$query_args = array(
@@ -110,7 +113,7 @@ function thaos_sh( $atts ) {
 
 			$htmlout .= '<!--' . ( $i % 4 ) . '-->';
 
-			if ( $i % 4 === 1 ) {
+			if ( $i % 4 === 1 ) { // phpcs:ignore
 				// Output.
 				$htmlout .= '<div class="thaos-container thaos">';
 			}
@@ -153,7 +156,7 @@ function thaos_sh( $atts ) {
 			$service_icon = get_post_meta( $post->ID, '_thaos_service_icon', true );
 
 			// Start List.
-			$htmlout .= '<div class="thaos-item">';
+			$htmlout .= '<div class="thaos-item ' . esc_attr( $class_boxes ) . '">';
 			if ( $nolink ) {
 				$htmlout .= '<a target="' . esc_html( $link_target ) . '" href="' . $htmlurl . '">';
 			}
@@ -176,14 +179,12 @@ function thaos_sh( $atts ) {
 				$htmlout .= '</a>';
 			}
 			$htmlout .= '</div>';
-
-			if ( $i % 4 === 0 ) {
+			if ( $i % 4 === 0 ) { // phpcs:ignore
 				$htmlout .= '</div><!-- END DIV FLEX -->';
 			}
 
 endwhile;
-
-		if ( $i % 4 !== 0 ) {
+		if ( $i % 4 !== 0 ) { // phpcs:ignore
 			$htmlout .= '</div><!-- END DIV FLEX -->';
 		}
 	}
