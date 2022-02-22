@@ -17,7 +17,8 @@
 
 .thaos-item{
     padding-left: 30px;
-    max-width: 25%;
+    /* max-width: 25%; */
+    max-width:250px;
 }
 
 .thaos .thserviceitem {
@@ -50,7 +51,7 @@
 
 .thaos .angebot-icon {
     font-size: 4em;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .thboxservice{
@@ -83,6 +84,7 @@
     .thaos-item{
         padding-left: 0;
         max-width: 100%;
+        width: 100%;
     }
 
     .thaos-container{

@@ -46,7 +46,9 @@ function thaos_sh( $atts ) {
 				'orderby'     => 'date',
 				'order'       => 'ASC',
 				'servicename' => '',
+				'id'       => '',
 				'class_boxes' => '',
+				'category' => '',
 			),
 			$atts
 		)
@@ -58,6 +60,8 @@ function thaos_sh( $atts ) {
 	$orderby     = ! empty( $orderby ) ? $orderby : 'date';
 	$servicename = ! empty( $servicename ) ? $servicename : '';
 	$class_boxes = ! empty( $class_boxes ) ? $class_boxes : '';
+	$category = ! empty( $category ) ? $category : '';
+	$id       = ! empty( $id ) ? $id : '';
 
 	// WP Query Parameters.
 	$query_args = array(
@@ -71,6 +75,22 @@ function thaos_sh( $atts ) {
 	// search single service.
 	if ( ! empty( $servicename ) ) {
 		$query_args['name'] = $servicename;
+	}
+
+	// search single faq.
+	if ( ! empty( $id ) ) {
+		$query_args['p'] = $id;
+	}
+
+	// Search with category.
+	if ( ! empty( $category ) ) {
+		$query_args['tax_query'] = array( // phpcs:ignore
+			array(
+				'taxonomy' => 'thaoss_categories',
+				'field'    => 'name',
+				'terms'    => $category,
+			),
+		);
 	}
 
 	// WP Query Parameters.
