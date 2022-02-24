@@ -1,11 +1,11 @@
 === About our services ===
 Contributors: triopsi
-Donate link: https://www.paypal.me/triopsi
+Donate link: https://www.paypal.me/triopsihosting
 Tags: about, aboutusservice, service, offer, site, post, shortcode, site, post
 Requires at least: 5.3
-Tested up to: 5.7
+Tested up to: 5.9
 Requires PHP: 5.6
-Stable tag: 1.3.0
+Stable tag: 1.4.0
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0
  
@@ -28,7 +28,7 @@ Please give me feedback, contribute and file technical bugs on [GitHub Repositor
 
 = Credits =
 
-Developed by [Triopsi](https://wiki.profoxi.de)
+Developed by [Triopsi Hosting](https://triopsi-hosting.com)
 
 == Installation ==
  
@@ -48,6 +48,12 @@ Nothing yet.
 5. Admin Page - Settings
  
 == Changelog ==
+
+= 1.4.0 =
+* Update Translate
+* Category manage
+* add CSS padding for Boxes
+* show single box with id
 
 = 1.3.0 =
 * Boxes update 
@@ -87,5 +93,5 @@ Nothing.
 
 == Donations ==
 
-If you like the plugin, consider a donation to support further development. [Click here](https://www.paypal.me/triopsi)
+If you like the plugin, consider a donation to support further development. [Click here](https://www.paypal.me/triopsihosting)
  
