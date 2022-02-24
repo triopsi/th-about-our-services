@@ -92,6 +92,7 @@ function thaos_help_page() { ?>
 												<td>
 													<span class="thaos-shortcode-preview">[thaos]</span> – <?php esc_html_e( 'Services Shortcode. Show all services in a row.', 'thaos' ); ?><br />
 													<span class="thaos-shortcode-preview">[thaos servicename="&lt;slug-name&gt;"]</span> – <?php esc_html_e( 'Show a single service.', 'thaos' ); ?> <br />
+													<span class="thaos-shortcode-preview">[thaos id="&lt;id&gt;"]</span> – <?php esc_html_e( 'Show a single service.', 'thaos' ); ?> <br />
 												</td>
 											</tr>			
 											<tr>
@@ -104,6 +105,8 @@ function thaos_help_page() { ?>
 													<span class="thaos-shortcode-preview">order="asc"</span> – <?php esc_html_e( 'Sort the services in ascending or descending order. Value=asc or desc, Default=ASC', 'thaos' ); ?> <br />
 													<span class="thaos-shortcode-preview">servicename="&lt;slug-name&gt;"</span> – <?php esc_html_e( 'Show a service - single view', 'thaos' ); ?> <br />
 													<span class="thaos-shortcode-preview">class_boxes="&lt;classnames&gt;"</span> – <?php esc_html_e( 'Add css classnames to the item.', 'thaos' ); ?> <br />
+													<span class="thaos-shortcode-preview">itempadding="5px 5px"</span> – <?php esc_html_e( 'Padding between item border and body. (CSS Padding - see the css referenz)', 'thaos' ); ?> <a href="https://developer.mozilla.org/de/docs/Web/CSS/padding" target="_blank">Read more</a> <br />	
+													<span class="thaos-shortcode-preview">category="&lt;category&gt;"</span> – <?php esc_html_e( 'Show Services in a category', 'thaos' ); ?> <br />													
 													<br />
 													<?php esc_html_e( 'e.g.', 'thaos' ); ?>
 													<span class="thaos-shortcode-preview">[thaos link_target="blank" order="desc"]</span>

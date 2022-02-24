@@ -46,9 +46,10 @@ function thaos_sh( $atts ) {
 				'orderby'     => 'date',
 				'order'       => 'ASC',
 				'servicename' => '',
-				'id'       => '',
+				'id'          => '',
 				'class_boxes' => '',
-				'category' => '',
+				'category'    => '',
+				'itempadding' => '',
 			),
 			$atts
 		)
@@ -60,8 +61,9 @@ function thaos_sh( $atts ) {
 	$orderby     = ! empty( $orderby ) ? $orderby : 'date';
 	$servicename = ! empty( $servicename ) ? $servicename : '';
 	$class_boxes = ! empty( $class_boxes ) ? $class_boxes : '';
-	$category = ! empty( $category ) ? $category : '';
-	$id       = ! empty( $id ) ? $id : '';
+	$category    = ! empty( $category ) ? $category : '';
+	$id          = ! empty( $id ) ? $id : '';
+	$itempadding = ! empty( $itempadding ) ? $itempadding : '';
 
 	// WP Query Parameters.
 	$query_args = array(
@@ -114,8 +116,8 @@ function thaos_sh( $atts ) {
 			color: <?php echo esc_attr( $main_color ); ?>;
 		}
 		.thaos .border-bottom-hover:hover {
-				border-bottom-color: <?php echo esc_attr( $border_color ); ?>;
-			}
+			border-bottom-color: <?php echo esc_attr( $border_color ); ?>;
+		}
 	</style>
 		<?php
 		// Output Buffer and Clen Buffer.
@@ -175,13 +177,16 @@ function thaos_sh( $atts ) {
 			// Get icon.
 			$service_icon = get_post_meta( $post->ID, '_thaos_service_icon', true );
 
+			// Padding Style.
+			$padding_style = ( ! empty( $itempadding ) ) ? 'padding: ' . $itempadding . ';' : '';
+
 			// Start List.
 			$htmlout .= '<div class="thaos-item ' . esc_attr( $class_boxes ) . '">';
 			if ( $nolink ) {
 				$htmlout .= '<a target="' . esc_html( $link_target ) . '" href="' . $htmlurl . '">';
 			}
 			$htmlout .= '<div class="thboxservice" style="">
-              <div class="thserviceitem border-bottom-hover">
+              <div class="thserviceitem border-bottom-hover" style="' . $padding_style . '">
                 <div class="angebot-icon thaos-txt">
                   <i class="fas ' . $service_icon . '"></i>
                 </div>';

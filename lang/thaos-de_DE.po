@@ -1,9 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/th-about-our-"
-"services\n"
-"POT-Creation-Date: 2021-06-07T10:38:28+02:00\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/thaos\n"
+"POT-Creation-Date: 2022-02-24T07:33:28+01:00\n"
 "PO-Revision-Date: \n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -11,7 +10,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.4.3\n"
+"X-Generator: Poedit 3.0.1\n"
 
 # Copyright (C) 2021 triopsi
 # This file is distributed under the same license as the About our services plugin.
@@ -75,8 +74,8 @@ msgstr ""
 "Schritt 3a. Kopieren Sie den Shortcode [thaos] und fügen Sie ihn in einem "
 "Beitrag oder Seite für eine Reihe von Services ein."
 
-#: inc/thaos-help.php:82 inc/thaos-post-metabox.php:82
-#: inc/thaos-post-metabox.php:107
+#: inc/thaos-help.php:82 inc/thaos-post-metabox.php:84
+#: inc/thaos-post-metabox.php:111
 msgid "or"
 msgstr "oder"
 
@@ -96,19 +95,19 @@ msgstr "Alle Shortcodes"
 msgid "Services Shortcode. Show all services in a row."
 msgstr "Service Shortcode. Zeige alle Service in einer Reihe."
 
-#: inc/thaos-help.php:94
+#: inc/thaos-help.php:94 inc/thaos-help.php:95
 msgid "Show a single service."
 msgstr "Zeige ein einzelner Service."
 
-#: inc/thaos-help.php:99
+#: inc/thaos-help.php:100
 msgid "All Shortcodes parameters"
 msgstr "Alle Shortcodes Parameter"
 
-#: inc/thaos-help.php:102
+#: inc/thaos-help.php:103
 msgid "Service link target. Value=self or blank, Default=self"
 msgstr "Service Link Ziel. Wert=self oder blank, Standard=self"
 
-#: inc/thaos-help.php:103
+#: inc/thaos-help.php:104
 msgid ""
 "Orderby the atribute of services Value=date, ID, title, name or rand, "
 "Default=date"
@@ -116,7 +115,7 @@ msgstr ""
 "Sortierung von Service anhand deren Attribute. Wert=date, ID, title, Name "
 "oder rand, Standard=date"
 
-#: inc/thaos-help.php:104
+#: inc/thaos-help.php:105
 msgid ""
 "Sort the services in ascending or descending order. Value=asc or desc, "
 "Default=ASC"
@@ -124,31 +123,41 @@ msgstr ""
 "Sortiere die Service in Aufsteigender oder Absteigender Reihenfolge. "
 "Wert=asc oder desc, Standard=ASC"
 
-#: inc/thaos-help.php:105
+#: inc/thaos-help.php:106
 msgid "Show a service - single view"
 msgstr "Zeige ein Service - Einzelansicht"
 
-#: inc/thaos-help.php:106
+#: inc/thaos-help.php:107
 msgid "Add css classnames to the item."
 msgstr "Fügt CSS Klassen in den Items hinzu."
 
 #: inc/thaos-help.php:108
+msgid ""
+"Padding between item border and body. (CSS Padding - see the css referenz)"
+msgstr ""
+"Padding zwischen Rand der Box und Text. (CSS-Padding - siehe CSS-Referenz)"
+
+#: inc/thaos-help.php:109
+msgid "Show Services in a category"
+msgstr "Dienste von einer Kategorie anzeigen"
+
+#: inc/thaos-help.php:111
 msgid "e.g."
 msgstr "z.B."
 
-#: inc/thaos-help.php:114
+#: inc/thaos-help.php:117
 msgid "Need Support?"
 msgstr "Support benötigt?"
 
-#: inc/thaos-help.php:117
+#: inc/thaos-help.php:120
 msgid "Check plugin document for shortcode parameters."
 msgstr "Checke die Plugin Dokumentation für Shortcode Parametern."
 
-#: inc/thaos-help.php:118
+#: inc/thaos-help.php:121
 msgid "Documentation"
 msgstr "Dokumentation"
 
-#: inc/thaos-help.php:119 inc/thaos-settings.php:203
+#: inc/thaos-help.php:122 inc/thaos-settings.php:203
 msgid "Donate"
 msgstr "Spenden"
 
@@ -168,28 +177,27 @@ msgstr "Mehr Informationen URL"
 msgid "Site"
 msgstr "Seite"
 
-#: inc/thaos-post-metabox.php:74 inc/thaos-post-metabox.php:88
+#: inc/thaos-post-metabox.php:75 inc/thaos-post-metabox.php:90
 msgid "Please Choose"
 msgstr "Bitte wählen"
 
-#: inc/thaos-post-metabox.php:85
+#: inc/thaos-post-metabox.php:87
 msgid "Post"
 msgstr "Beitrag"
 
-#: inc/thaos-post-metabox.php:112
+#: inc/thaos-post-metabox.php:116
 msgid "e.g. https://example.com"
 msgstr "z.B. https://example.com"
 
-#: inc/thaos-post-metabox.php:114
+#: inc/thaos-post-metabox.php:118
 msgid "Empty Value = No Link"
 msgstr "Leerer Inhalt = Kein Link"
 
-#: inc/thaos-post-metabox.php:133
+#: inc/thaos-post-metabox.php:137
 msgid "Icon name"
 msgstr "Iconnamen"
 
-#. translators: %s is replaced with the link
-#: inc/thaos-post-metabox.php:140
+#: inc/thaos-post-metabox.php:145
 msgid ""
 "By default the plugin used and needed the font awesome icon libary (%s). "
 "Choose one and copy the name in this field. Important! Without first css "
@@ -199,7 +207,7 @@ msgstr ""
 "Bibliothek (%s). Suche dir ein Icon aus und kopieren den Namen in dieses "
 "Feld. Achtung! Ohne den ersten css Teil (.fas)."
 
-#: inc/thaos-post-metabox.php:147
+#: inc/thaos-post-metabox.php:153
 msgid "Required fields"
 msgstr "Pflichtfeld"
 
@@ -263,62 +271,122 @@ msgstr ""
 "Du siehst diese Einstellungen, weil die WP_DEBU Variable auf true gesetzt "
 "worden ist."
 
-#: inc/thaos-types.php:34 inc/thaos-types.php:36 inc/thaos-types.php:37
+#: inc/thaos-types.php:37 inc/thaos-types.php:39 inc/thaos-types.php:40
 msgid "TH Services"
 msgstr "TH Services"
 
-#: inc/thaos-types.php:35
+#: inc/thaos-types.php:38
 msgid "Service"
 msgstr "Service"
 
-#: inc/thaos-types.php:38 inc/thaos-types.php:39
+#: inc/thaos-types.php:41 inc/thaos-types.php:42
 msgid "Add New Service"
 msgstr "Service hinzufügen"
 
-#: inc/thaos-types.php:40
+#: inc/thaos-types.php:43
 msgid "New Service"
 msgstr "Neuer Service"
 
-#: inc/thaos-types.php:41
+#: inc/thaos-types.php:44
 msgid "Edit Service"
 msgstr "Service bearbeiten"
 
-#: inc/thaos-types.php:42
+#: inc/thaos-types.php:45
 msgid "View Service"
 msgstr "Service anschauen"
 
-#: inc/thaos-types.php:43
+#: inc/thaos-types.php:46
 msgid "All Services"
 msgstr "Alle Service"
 
-#: inc/thaos-types.php:44
+#: inc/thaos-types.php:47
 msgid "Search Service"
 msgstr "Suche Service"
 
-#: inc/thaos-types.php:45
+#: inc/thaos-types.php:48
 msgid "No Services found."
 msgstr "Kein Service gefunden."
 
-#: inc/thaos-types.php:46
+#: inc/thaos-types.php:49
 msgid "No Services found in Trash."
 msgstr "Kein Service im Papierkorb gefunden."
 
-#: inc/thaos-types.php:85 inc/thaos-types.php:86
+#: inc/thaos-types.php:79 inc/thaos-types.php:93
+msgid "Service Categories"
+msgstr "Service Kategorien"
+
+#: inc/thaos-types.php:80
+msgid "Service Category"
+msgstr "Service Kategorie"
+
+#: inc/thaos-types.php:81
+msgid "Search Service categories"
+msgstr "Suche Service Kategorie"
+
+#: inc/thaos-types.php:82
+msgid "All Service categories"
+msgstr "Alle Service Kategorien"
+
+#: inc/thaos-types.php:83
+msgid "Parent Service Category"
+msgstr "Kategorie Elterndienst"
+
+#: inc/thaos-types.php:84
+msgid "Parent Service Category:"
+msgstr "Kategorie Elterndienst:"
+
+#: inc/thaos-types.php:85
+msgid "Edit Service Category"
+msgstr "Service Kategorie bearbeiten"
+
+#: inc/thaos-types.php:86
+msgid "Update Service Category"
+msgstr "Dienstkategorie aktualisieren"
+
+#: inc/thaos-types.php:87
+msgid "Add New Service Category"
+msgstr "Neue Service Kategorie hinzufügen"
+
+#: inc/thaos-types.php:88
+msgid "New Service Category Name"
+msgstr "Neuer Service Kategoriennamen"
+
+#: inc/thaos-types.php:89
+msgid "Separate Service categories with commas"
+msgstr "Trennen Sie Servicekategorien durch Kommas"
+
+#: inc/thaos-types.php:90
+msgid "Add or remove Service category"
+msgstr "Dienstkategorie hinzufügen oder entfernen"
+
+#: inc/thaos-types.php:91
+msgid "Choose from the most used Service categories"
+msgstr "Wählen Sie aus den am häufigsten verwendeten Servicekategorien"
+
+#: inc/thaos-types.php:92
+msgid "No Service category found."
+msgstr "Keine Service Kategorie gefunden."
+
+#: inc/thaos-types.php:125 inc/thaos-types.php:126
 msgid "Service updated."
 msgstr "Service überarbeitet."
 
-#: inc/thaos-types.php:87
+#: inc/thaos-types.php:127
 msgid "Service published."
 msgstr "Service veröffentlicht."
 
-#: inc/thaos-types.php:88
+#: inc/thaos-types.php:128
 msgid "Services saved."
 msgstr "Service gespeichert."
 
-#: inc/thaos-types.php:89
+#: inc/thaos-types.php:129
 msgid "Services draft updated."
 msgstr "Service Blaupause gespeichert."
 
-#: inc/thaos-types.php:127
+#: inc/thaos-types.php:166
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: inc/thaos-types.php:200
 msgid "Service name"
 msgstr "Servicenamen"
