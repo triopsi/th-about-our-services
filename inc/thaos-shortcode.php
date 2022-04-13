@@ -188,7 +188,7 @@ function thaos_sh( $atts ) {
 			$htmlout .= '<div class="thboxservice" style="">
               <div class="thserviceitem border-bottom-hover" style="' . $padding_style . '">
                 <div class="angebot-icon thaos-txt">
-                  <i class="fas ' . $service_icon . '"></i>
+                  <i class="' . $service_icon . '"></i>
                 </div>';
 			if ( $show_title ) {
 				$htmlout .= '<h3 class="thaos-txt">' . $title_service . '</h3>';

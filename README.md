@@ -13,7 +13,7 @@ Tags             | about, aboutusservice, service, offer, site, post, shortcode,
 Requires at least:	   |  5.3
 Tested up to:	   |  5.9
 Requires PHP:	   |  7.4
-Stable tag:	   |  1.4.0
+Stable tag:	   |  1.5.0
 License:	   |  GPLv3
 License URI:	   | https://www.gnu.org/licenses/gpl-3.0
 
@@ -65,6 +65,9 @@ Nothing yet.
 <img src="assets/img/screenshot-5.png" width="550">
  
 ## Changelog
+
+### 1.5.0
+* Fix Fontawesome Icons
 
 ### 1.4.0
 * Update Translate

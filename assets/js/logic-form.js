@@ -7,7 +7,7 @@
             var inputVal = input.val();
             if(inputVal!=''){
                 reviewfield.html('');
-                reviewfield.append( "<i class='fas "+inputVal+"'></i>" );
+                reviewfield.append( "<i class='"+inputVal+"'></i>" );
             }
        }
 

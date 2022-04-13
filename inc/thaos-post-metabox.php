@@ -136,7 +136,7 @@ function thaos_add_servoice_icon_display( $post ) {
 		<div class="thaos_field_title">
 			<?php echo __( 'Icon name', 'thaos' ); ?><span style="color:red;">*</span>
 		</div>
-		<input class="thaos-field regular-text" id="thaos-icon" name="thaos_info_icon" type="text" value="<?php echo esc_attr( $serviceicon ); ?>" placeholder="fa-sync">
+		<input class="thaos-field regular-text" id="thaos-icon" name="thaos_info_icon" type="text" value="<?php echo esc_attr( $serviceicon ); ?>" placeholder="fas fa-sync">
 		</br>
 		<em>
 		<?php
